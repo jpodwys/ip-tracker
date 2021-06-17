@@ -1,0 +1,23 @@
+{
+  "name": "ip-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "IPTracker.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpodwys/ip-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpodwys/ip-tracker/issues"
+  },
+  "homepage": "https://github.com/jpodwys/ip-tracker#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
