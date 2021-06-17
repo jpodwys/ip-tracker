@@ -10,11 +10,9 @@
 
 #### What is the runtime complexity of each function?
 
-`request_handled`: O(n * log(n)) where `n` is at most 100
-
-`top100`: O(n) where `n` is at most 100
-
-`clear`: O(1)
+* `request_handled`: O(n * log(n)) where `n` is at most 100
+* `top100`: O(n) where `n` is at most 100
+* `clear`: O(1)
 
 #### How does your code work?
 
