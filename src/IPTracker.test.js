@@ -55,7 +55,7 @@ describe('IPTracker', () => {
         expect(tracker.top100()).toEqual([ IP3, IP1 ]);
       });
 
-      test('topIps never MAX_TOP_IP_COUNT the max', () => {
+      test('topIps.length never exceeds MAX_TOP_IP_COUNT', () => {
         tracker.request_handled(IP1);
         tracker.request_handled(IP2);
         tracker.request_handled(IP3);
@@ -70,7 +70,7 @@ describe('IPTracker', () => {
         expect(tracker.top100()).toHaveLength(0);
       });
 
-      test('returns an array of numbers sorted high-to-low', () => {
+      test('returns an array of strings sorted high-to-low', () => {
         tracker.MAX_TOP_IP_COUNT = 3;
         tracker.request_handled(IP1);
         tracker.request_handled(IP2);
