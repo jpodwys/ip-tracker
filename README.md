@@ -33,7 +33,7 @@ The `top100` function, the only function to have an explicit time requirement, i
 
 ### What other approaches did you decide **not** to pursue?
 
-I considered using an object instead of a Map, but a quick JSBench I created shows that in functionally equivalent code, object performs 76% slower than Map.
+I considered using an object instead of a Map, but a quick JSBench I created shows that in the following functionally equivalent code, object performs 76% slower than Map.
 
 ![Screen Shot 2021-06-17 at 4 36 11 PM](https://user-images.githubusercontent.com/5660076/122485553-7762b880-cf94-11eb-92fa-048892eeb581.png)
 
