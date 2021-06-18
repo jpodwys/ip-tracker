@@ -1,7 +1,8 @@
 class IPTracker {
   constructor () {
     this.MAX_TOP_IP_COUNT = 100;
-    this.clear();
+    this.ips = new Map();
+    this.topIps = [];
   }
 
   request_handled (ip) {
