@@ -27,7 +27,7 @@ Based on these three booleans, I conditionally
 * sort the top ips array
 * remove the 101st item from the top ips array
 
-An important note here is that I preserve the memory address for the ip/count tuple across both the master list Map and the top ips array.
+An important note here is that I preserve the memory address for the ip/count tuple across both the master ips Map and the top ips array.
 
 The `top100` function, the only function to have an explicit time requirement, is as simple as mapping the top ips (a list of tuples) into an output array.
 
