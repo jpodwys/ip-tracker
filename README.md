@@ -41,6 +41,6 @@ I considered using an object instead of a Map, but a quick JSBench I created sho
 
 I wrote automated tests here in this repository using jest.
 
-![Screen Shot 2021-06-18 at 10 11 46 AM](https://user-images.githubusercontent.com/5660076/122589533-99544d80-d01d-11eb-910b-f2aa89011a66.png)
+![Screen Shot 2021-06-18 at 10 12 50 AM](https://user-images.githubusercontent.com/5660076/122589634-bee15700-d01d-11eb-9e0e-794fbfce4190.png)
 
 If this was going to production, I would like to also add tests to ensure the included functions never exceed a given performance budget.
